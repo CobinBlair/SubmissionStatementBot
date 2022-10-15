@@ -28,7 +28,7 @@ class Settings:
 
     submission_statement_pin = True
     submission_statement_time_limit_mins = 30
-    submission_statement_minimum_char_length = 150
+    submission_statement_minimum_char_length = 200
     submission_statement_bot_prefix = "The following submission statement was provided by"
 
     low_effort_flair = ["casual friday", "low effort", "humor", "humour"]
@@ -57,7 +57,7 @@ class Settings:
                                   "Please message the moderators if you feel this was an error.")
     submission_statement_rule_description = "Submission statements must clearly explain why the linked content is" \
                                             " collapse-related. They should contain a summary or description of the" \
-                                            " content and must be at least 150 characters in length. They must be" \
+                                            " content and must be at least 200 characters in length. They must be" \
                                             " original and not overly composed of quoted text from the source. If a " \
                                             "statement is not added within thirty minutes of posting it will be removed"
 
